@@ -1,11 +1,10 @@
-[gd_scene format=3 uid="uid://drxn3ny4yftke"]
+[gd_scene load_steps=3 format=3 uid="uid://drxn3ny4yftke"]
+
+[ext_resource type="PackedScene" uid="uid://b12jn1cxwnl53" path="res://Player/player.tscn" id="1_gt0a5"]
+[ext_resource type="Script" path="res://Player/player.gd" id="2_vtkog"]
 
 [node name="Level" type="Node2D"]
 
-[node name="Label" type="Label" parent="."]
-offset_left = 337.0
-offset_top = 236.0
-offset_right = 798.0
-offset_bottom = 444.0
-theme_override_font_sizes/font_size = 50
-text = "level 1"
+[node name="Player" parent="." instance=ExtResource("1_gt0a5")]
+position = Vector2(191, 256)
+script = ExtResource("2_vtkog")
