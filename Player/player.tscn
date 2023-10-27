@@ -219,10 +219,10 @@ position = Vector2(2, -13)
 sprite_frames = SubResource("SpriteFrames_8w1bq")
 animation = &"Fall"
 autoplay = "idle"
-frame_progress = 0.92561
+frame_progress = 0.266164
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(2.8, 2.8)
+zoom = Vector2(2.5, 2.5)
 process_callback = 0
 limit_left = 0
 limit_right = 1250
